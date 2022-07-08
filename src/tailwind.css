@@ -15,3 +15,16 @@
   }
 }
 
+@layer components {
+  .bg-primary {
+    @apply bg-[#1e2938];
+  }
+
+  .bg-secondary {
+    @apply bg-[#43e8c4];
+  }
+
+  .random-question-button {
+    @apply bg-[#09C7BD] hover:bg-[#00A6AE] text-gray-100 font-bold rounded mx-auto mt-48 text-9xl py-10 px-48
+  }
+}
