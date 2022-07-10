@@ -7,20 +7,26 @@
     <link href="index.css" rel="stylesheet" />
   </head>
   <body dir="rtl" class="bg-primary grid justify-items-center">
-    <h1
-      id="site-text"
-      class="text-8xl font-extrabold mb-2 text-gray-100 animate-text pt-24 text-center"
-    >
-      שאל אותי
-      <span class="relative">
-        <span class="pt-2 whitespace-nowrap"> שאלה טיפשית </span>
-        <span
-          class="cursor absolute -bottom-0 left-0 -top-1 inline-block bg-primary w-full animate-type will-change"
-        ></span>
-      </span>
-    </h1>
+    <main id="app">
+      <h1
+        id="site-text"
+        class="animate-text mb-2 pt-24 text-center text-8xl font-extrabold text-gray-100"
+      >
+        שאל אותי
+        <span class="relative">
+          <span class="whitespace-nowrap pt-2"> שאלה טיפשית </span>
+          <span
+            class="cursor bg-primary will-change absolute -bottom-0 left-0 -top-1 inline-block w-full animate-type"
+          ></span>
+        </span>
+      </h1>
 
-    <button id="random-question" class="random-question-button">הגרל</button>
+      <article class="mx-48 mt-48">
+        <button id="random-question" class="random-question-button w-full">
+          הגרל
+        </button>
+      </article>
+    </main>
     <script type="module" src="index.js"></script>
   </body>
 </html>
